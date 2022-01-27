@@ -1,0 +1,16 @@
+.main-visual {
+  background: #efeeee url(../../common/images/mainvisual01_bg.jpg) 50% 0
+    no-repeat;
+  position: relative;
+  margin: auto;
+  padding-top: 104px;
+  height: 1000px;
+}
+
+.main-visual img {
+  vertical-align: middle;
+  display: table-cell;
+  margin-top: 104px;
+  margin: auto;
+  max-width: calc(100vw - 10%);
+}

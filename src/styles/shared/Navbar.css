@@ -1,0 +1,39 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 64px;
+  padding: 20px;
+  display: flex;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav-scroll {
+  background-color: #ffffff;
+}
+
+.nav-logo {
+  position: fixed;
+  left: 20px;
+  object-fit: contain;
+  width: 250px;
+  cursor: pointer;
+}
+
+.btngroup {
+  position: fixed;
+  right: 20px;
+  width: 50%;
+  justify-content: space-around;
+  display: flex;
+  line-height: 65px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.btngroup a:hover {
+  color: red;
+}

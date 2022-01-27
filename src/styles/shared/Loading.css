@@ -1,0 +1,254 @@
+/*------------------------------------------
+  Loading html
+-------------------------------------------*/
+/* <div class="loading" >
+    <div class="loading__wrapper">
+        <div class="loading__stack loading__stack--1"></div>
+        <div class="loading__stack loading__stack--2"></div>
+        <div class="loading__stack loading__stack--3"></div>
+        <div class="loading__stack loading__stack--4"></div>
+    </div>
+</div> */
+
+/*------------------------------------------
+  START loading animated
+-------------------------------------------*/
+.loading {
+  margin: 100px 0;
+  /*margin-top: calc((100vh - 240px) / 2);*/
+  display: flex;
+  justify-content: center;
+}
+
+.loading__wrapper > div {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  transform-origin: center;
+  margin-top: -50px;
+}
+
+.loading__stack {
+  will-change: transform;
+  animation-delay: -2s;
+  animation-duration: 2s, 10s;
+  animation-iteration-count: infinite, infinite;
+  animation-timing-function: ease, ease;
+}
+
+.loading__stack--1 {
+  opacity: 1;
+  animation-name: adv-stack-1, changecolor;
+}
+
+.loading__stack--2 {
+  opacity: 0.75;
+  animation-name: adv-stack-2, changecolor;
+}
+
+.loading__stack--3 {
+  opacity: 0.5;
+  animation-name: adv-stack-3, changecolor;
+}
+
+.loading__stack--4 {
+  opacity: 0.25;
+  animation-name: adv-stack-4, changecolor;
+}
+
+@keyframes changecolor {
+  0% {
+    background-color: #55881b;
+  }
+
+  1% {
+    background-color: #55881b;
+  }
+
+  15% {
+    background-color: #55881b;
+  }
+
+  21% {
+    background-color: #4169e1;
+  }
+
+  35% {
+    background-color: #4169e1;
+  }
+
+  41% {
+    background-color: #e69002;
+  }
+
+  55% {
+    background-color: #e69002;
+  }
+
+  61% {
+    background-color: #306c9a;
+  }
+
+  75% {
+    background-color: #306c9a;
+  }
+
+  81% {
+    background-color: #6daee0;
+  }
+
+  95% {
+    background-color: #6daee0;
+  }
+
+  100% {
+    background-color: #55881b;
+  }
+}
+
+@keyframes adv-stack-1 {
+  0% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  10% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  30% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(44px);
+  }
+
+  50% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  57% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-28px);
+  }
+
+  64% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  100% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(135deg)
+      translateZ(-36px);
+  }
+}
+
+@keyframes adv-stack-2 {
+  0% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  10% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  30% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(28px);
+  }
+
+  50% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  57% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-29.6px);
+  }
+
+  64% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  100% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(135deg)
+      translateZ(-36px);
+  }
+}
+
+@keyframes adv-stack-3 {
+  0% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  10% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  30% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(12px);
+  }
+
+  50% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  57% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-31.2px);
+  }
+
+  64% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  100% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(135deg)
+      translateZ(-36px);
+  }
+}
+
+@keyframes adv-stack-4 {
+  0% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  10% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  30% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg) translateZ(0px);
+  }
+
+  50% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  57% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-32.4px);
+  }
+
+  64% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(45deg)
+      translateZ(-36px);
+  }
+
+  100% {
+    transform: perspective(2400px) rotateX(60deg) rotateZ(135deg)
+      translateZ(-36px);
+  }
+}
