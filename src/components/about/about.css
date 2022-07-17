@@ -1,0 +1,88 @@
+.about-me {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intoduction h3 {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  font-family: SF Pro Display, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7.2rem;
+  line-height: 8.6rem;
+}
+
+.intoduction h2 {
+  font-family: SF Pro Display, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #61DBFB;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+p {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  font-family: SF Pro Display, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  margin-bottom: 3.2rem;
+}
+
+img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.btn {
+  width: 45%;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 15px;
+  line-height: 65px;
+}
+
+.btn a {
+  font-family: SF Pro Display, sans-serif;
+  display: inline-block;
+  background-color: #004280;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 15px;
+  box-shadow: 0 1.6rem 1.6rem rgb(51 51 51 / 25%);
+  border-radius: 3rem;
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: #004280;
+}
+
+.btn .outline {
+  color: #008cd6;
+  background-color: transparent;
+  border: 1px solid #008cd6;
+}
+
+.btn a.outline:hover {
+  color: #006498;
+  background-color: rgba(218, 238, 249, 0.5);
+  border: 1px solid #006498;
+}
+
+.btn p {
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}

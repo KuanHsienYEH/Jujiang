@@ -1,0 +1,35 @@
+.contact-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-right: 2rem;
+}
+
+.contact-info div p {
+    font-family: SF Pro Display,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    margin-left: 2.2rem;;
+}
+.contact-info div a {
+    font-family: SF Pro Display,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    margin-left: 2.2rem;;
+}
