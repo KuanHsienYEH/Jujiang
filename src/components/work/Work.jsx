@@ -1,5 +1,5 @@
 import React from "react";
-import "./skill-tree.css";
+import "./work.css";
 
 function SkillTree() {
   return <div></div>;

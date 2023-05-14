@@ -1,15 +1,15 @@
 import React from 'react'
-import SkillTree from '../components/skilltree/SkillTree'
 import About from '../components/about/About'
-import WorkingExp from '../components/workingexp/WorkingExp'
+import Work from '../components/work/Work'
+import Exp from '../components/exp/Exp'
 import Contact from '../components/contact/Contact'
 
 function homepage(){
   return (
       <>
         <About />
-        <SkillTree />
-        <WorkingExp />
+        <Exp />
+        <Work />
         <Contact />
       </>
   )
