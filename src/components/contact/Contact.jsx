@@ -79,7 +79,7 @@ const Contact = () => {
             <input type="email" placeholder="Email" name="user_email" />
             <input type="tel" placeholder="Phone Number" name="user_phone" />
           </div>
-          <textarea placeholder="Enter your message" name="message" />
+          <textarea placeholder="Leave message" name="message" />
           <Submit />
         </form>
       </GoogleReCaptchaProvider>

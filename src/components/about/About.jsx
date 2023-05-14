@@ -1,27 +1,20 @@
 import React from "react";
 import "./about.css";
-import selfy from "../../common/images/selfy.jpg";
 
 function about() {
   return (
-    <div className="about-me">
+    <div className="about">
       <div className="intoduction">
-        <h3>Hi ! I'm Sam</h3>
-        <h2>software engineer</h2>
+        <span>Hi, My name is</span>
+        <h2>Kuan Hsien (KH) <br/>I am a frontend expert</h2>
         <p>
-          A highly motivated professional with more than 3 years of working
-          experience in the fields of E-Commerce web development.
-        </p>
-        {/* <div className="btn">
-          <a href="/">
-            <p>skill-tree</p>
-          </a>
-          <a className="outline" href="/">
-            <p>working exprience</p>
-          </a>
-        </div> */}
+        A highly motivated professional with more than 4 years of working experience in the fields of digital cryptocurrency exchange, E-Commerce web development and marketing automation.
+       </p>
+       <p>
+       Skilled in web development, software testing, React, Vue, Javascript (ES6+), Python, C#, NodeJS, MongoDB, MSSQL, Third-party APIs, OAuth.
+       </p>
       </div>
-      <img alt="selfy" src={selfy} />
+      <a>Learn More About Me</a>
     </div>
   );
 }

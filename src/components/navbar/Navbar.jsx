@@ -1,31 +1,40 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, Link } from "react-router-dom";
 import './navbar.css';
 
 function Nav() {
-    const [show, handleShow] = useState(false);
+    const [isNavbarVisible, setIsNavbarVisible] = useState(true);
+    const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
 
     useEffect(() => {
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 50) {
-                handleShow(true);
-            } else handleShow(false);
-        });
-        return () => {
-            window.removeEventListener("scroll");
+        const handleScroll = () => {
+            const currentScrollPos = window.pageYOffset;
+
+            if (prevScrollPos > currentScrollPos) {
+                setIsNavbarVisible(true);
+            } else {
+                setIsNavbarVisible(false);
+            }
+            setPrevScrollPos(currentScrollPos);
         };
-    }, []);
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, [prevScrollPos]);
 
     return (
-        <div className={`nav ${show && "nav-scroll"}`}>
-            {/* <Link to="/"><img className="nav-logo" src={0} alt="logo" /></Link> */}
+        <header className={`${!isNavbarVisible ? "hidden" : ""}`}>
             <nav>
                 <ul className="btngroup">
-                    <li><Link to="/portfolio">About me</Link></li>
-                    <li><Link to="/works">Works</Link></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Expenience</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
     );
 }
 
