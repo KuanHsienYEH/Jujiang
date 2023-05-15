@@ -34,15 +34,21 @@
 }
 
 .box__inner img {
-    height: 400px;
+    width: 55%;
 }
 
 .box__wrapper {
     position: absolute;
     z-index: 10;
-    top: 40%;
-    background-color: #112240;
+    right: 0;
+    top: 0;
+    width: 50%;
+
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.box__wrapper .desc {
+    background-color: #112240;
 }
