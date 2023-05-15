@@ -3,7 +3,7 @@
 }
 
 .intoduction span {
-  color: #64ffda;
+  color: #00BFFF;
   font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 }
 
@@ -33,18 +33,12 @@ p {
   margin-bottom: 3.2rem;
 }
 
-img {
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
-}
-
 .about a {
   width: 180px;
   display: block;
-  color: #64ffda;
+  color: #00BFFF;
   background-color: transparent;
-  border: 1px solid #64ffda;
+  border: 1px solid #00BFFF;
   border-radius: 4px;
   padding: 1.25rem 1.75rem;
   font-size: 14px;
@@ -59,6 +53,6 @@ img {
   outline: none;
   text-decoration: none;
   cursor: pointer;
-  box-shadow: 4px 4px 0 0 #64ffda;
+  box-shadow: 4px 4px 0 0 #00BFFF;
   transform: translate(-5px, -5px);
 }

@@ -1,0 +1,33 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work .title {
+    font-size: 3rem;
+    margin: 10px 0px 40px;
+    width: 100%;
+    white-space: nowrap;
+    align-items: center;
+    color: #ccd6f6;
+    display: flex;
+    align-self: center;
+}
+
+.box {
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.box.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.box__inner {}
+
+.box__wrapper {}

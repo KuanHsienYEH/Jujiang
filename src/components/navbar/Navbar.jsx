@@ -28,10 +28,10 @@ function Nav() {
         <header className={`${!isNavbarVisible ? "hidden" : ""}`}>
             <nav>
                 <ul className="btngroup">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Expenience</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Expenience">Expenience</a></li>
+                    <li><a href="#Side Project">Side Project</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
