@@ -43,14 +43,14 @@ function Work() {
   }, []);
 
   return (
-    <div className="work">
+    <div id="SideProject" className="work">
       <h3 className='title'>Side Project</h3>
       <div className={`box ${isVisible1 ? 'visible' : ''}`}>
         <div className='box__inner'>
           <a href="https://kuanhsienyeh.github.io/travel-advisor/">
             <img src={travelAdvisor} />
           </a>
-          <div className='box__wrapper img-left'>
+          <div className='box__wrapper'>
             <span>Featured Project</span>
             <a className='project' href="https://kuanhsienyeh.github.io/travel-advisor/">Travel Advisor</a>
             <div className='desc'>
@@ -90,7 +90,7 @@ function Work() {
         </div>
       </div>
       <div className={`box ${isVisible3 ? 'visible' : ''}`}>
-        <div className='box__inner img-left'>
+        <div className='box__inner'>
           <a href="https://cytmath.xyz/QiuYudengMathematics/">
             <img src={qyd} />
           </a>

@@ -30,7 +30,7 @@ function Nav() {
                 <ul className="btngroup">
                     <li><a href="#About">About</a></li>
                     <li><a href="#Expenience">Expenience</a></li>
-                    <li><a href="#Side Project">Side Project</a></li>
+                    <li><a href="#SideProject">Side Project</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
