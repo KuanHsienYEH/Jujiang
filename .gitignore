@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-/src/config
+
 
 # production
 /build
@@ -25,3 +25,4 @@ yarn-error.log*
 
 # congfig
 /config
+/src/config
