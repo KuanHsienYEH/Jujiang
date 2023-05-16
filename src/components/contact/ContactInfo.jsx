@@ -7,7 +7,7 @@ function ContactInfo() {
     <div className="contact-info">
       <div>
         <FaMapMarkerAlt size="2em" color="cornflowerblue" />
-        <p>Taipei , Twiwan</p>
+        <p>Taiwan / San Diego</p>
       </div>
       <div>
         <FaRegEnvelope size="2em" color="cornflowerblue" />
