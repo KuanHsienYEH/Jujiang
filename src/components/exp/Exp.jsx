@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import './exp.css';
 
 const section = [{
-  id:'1',
+  id: '1',
   title: 'Advantech',
-  link:'https://www.advantech.com/en',
-  date:'Nov 2019 - Aug 2023',
-  post:'Software Engineer',
-  desc:[
+  link: 'https://www.advantech.com/en',
+  date: 'Nov 2019 - Aug 2023',
+  post: 'Software Engineer',
+  desc: [
     'Implemented frontend of Membership project using Vue3, Pinia, and Vite.',
     'Implemented frontend of marketing automation platform using React.',
     'Implemented Facebook, Google, Linkedin social login.',
@@ -23,23 +23,23 @@ const section = [{
     'Mentored junior front-end developer on team in expanding front-end skillset.',
     'Gave internal tech talk.'
   ]
-},{
-  id:'2',
+}, {
+  id: '2',
   title: 'Starbit',
-  link:'https://star-bit.io/',
-  date:'Apr 2018 - Feb 2019 ',
-  post:'Frontend Developer',
-  desc:[
+  link: 'https://star-bit.io/',
+  date: 'Apr 2018 - Feb 2019 ',
+  post: 'Frontend Developer',
+  desc: [
     'Front-end web development on the digital cryptocurrency exchange platform.',
     'Implemented SPA landing page for business marketing purposes.'
   ]
-},{
-  id:'3',
+}, {
+  id: '3',
   title: '104 corp',
-  link:'https://www.104.com.tw/jobs/main/',
-  date:'Feb 2019 - Aug 2019',
-  post:'ITPM',
-  desc:[
+  link: 'https://www.104.com.tw/jobs/main/',
+  date: 'Feb 2019 - Aug 2019',
+  post: 'ITPM',
+  desc: [
     'Implemented Root Cause Analysis flow to clarify the root causes which lead to web service downtime.',
     'Implemented Change Management which efficiently reduced service downtime caused by human error by 90%.',
     'Generated reports by parsing XML using PHP to organize APs that run on company web service, which was maintained manually, reducing working hours from 3 days to 2 hours.',
@@ -104,8 +104,8 @@ function Exp() {
               <h2>{section.post}<a href={section.link}> @ {section.title}</a></h2>
               <p>{section.date}</p>
               <ul>
-              {section.desc.map((desc,idx) => (
-                <li key={idx}>{desc}</li>
+                {section.desc.map((desc, idx) => (
+                  <li key={idx}>{desc}</li>
                 ))}
               </ul>
             </div>

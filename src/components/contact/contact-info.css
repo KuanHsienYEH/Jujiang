@@ -1,35 +1,29 @@
-.contact-info{
+.contact-info {
     display: flex;
     flex-direction: column;
 }
 
-.contact-info div{
+.contact-info div {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 4rem;
     margin-right: 2rem;
 }
 
 .contact-info div p {
-    font-family: SF Pro Display,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-    text-align: center;
+    color: #a8b2d1;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    font-size: 16px;
     transform: translate(0px, 0px);
     opacity: 1;
-    margin-left: 2.2rem;;
+    margin-left: 2.2rem;
 }
+
 .contact-info div a {
-    font-family: SF Pro Display,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-    text-align: center;
+    color: #a8b2d1;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    font-size: 16px;
     transform: translate(0px, 0px);
     opacity: 1;
-    margin-left: 2.2rem;;
+    margin-left: 2.2rem;
 }

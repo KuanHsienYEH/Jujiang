@@ -3,7 +3,7 @@ section {
     width: 80%;
 }
 
-.title {
+#Expenience .title {
     font-size: 3rem;
     margin: 10px 0px 40px;
     width: 100%;
@@ -14,7 +14,7 @@ section {
     align-self: center;
 }
 
-.title::after {
+#Expenience .title::after {
     content: "";
     display: block;
     position: relative;
@@ -122,4 +122,41 @@ section {
 
 .section.visible {
     display: block;
+}
+
+@media screen and (max-width:768px) {
+    .exp {
+        flex-direction: column;
+    }
+
+    .exp__sidebar {
+        flex: 0;
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+
+    .exp__sidebar ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .exp__sidebar ul li {
+        border-left: none;
+        border-bottom: 2px solid #233554;
+    }
+
+    .exp__sidebar li.active {
+        font-weight: bold;
+        color: #00BFFF;
+        border-left: none;
+        border-bottom: 2px solid #00BFFF;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    #Expenience .title {
+        font-size: 3rem;
+    }
+
 }

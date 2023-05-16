@@ -70,19 +70,22 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
-      <ContactInfo />
-      <GoogleReCaptchaProvider reCaptchaKey="6Ldw3esfAAAAADcZDVPgCHlmLHgUcAM2ieFGh7Mj">
-        <form className="contact-form" ref={form} onSubmit={sendEmail}>
-          <input type="text" placeholder="Full Name" name="user_name" />
-          <div>
-            <input type="email" placeholder="Email" name="user_email" />
-            <input type="tel" placeholder="Phone Number" name="user_phone" />
-          </div>
-          <textarea placeholder="Leave message" name="message" />
-          <Submit />
-        </form>
-      </GoogleReCaptchaProvider>
+    <div id="Contact">
+      <h3 className='title'>Contact</h3>
+      <div className="contact-container">
+        <ContactInfo />
+        <GoogleReCaptchaProvider reCaptchaKey="6Ldw3esfAAAAADcZDVPgCHlmLHgUcAM2ieFGh7Mj">
+          <form className="contact-form" ref={form} onSubmit={sendEmail}>
+            <input type="text" placeholder="Full Name" name="user_name" />
+            <div>
+              <input type="email" placeholder="Email" name="user_email" />
+              <input type="tel" placeholder="Phone Number" name="user_phone" />
+            </div>
+            <textarea placeholder="Leave message" name="message" />
+            <Submit />
+          </form>
+        </GoogleReCaptchaProvider>
+      </div>
     </div>
   );
 };

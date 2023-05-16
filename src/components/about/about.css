@@ -33,7 +33,7 @@ p {
   margin-bottom: 3.2rem;
 }
 
-.about a {
+.about .learnmore {
   width: 180px;
   display: block;
   color: #00BFFF;
@@ -49,10 +49,38 @@ p {
   margin: 4rem 0;
 }
 
-.about a:hover {
+.about .learnmore:hover {
   outline: none;
   text-decoration: none;
   cursor: pointer;
   box-shadow: 4px 4px 0 0 #00BFFF;
   transform: translate(-5px, -5px);
+}
+
+@media screen and (max-width:996px) {
+
+  .intoduction h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  .intoduction p {
+    width: 100%;
+  }
+
+  .about .learnmore {
+    margin: 3rem 0 0;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .intoduction h2 {
+    font-size: 2rem;
+  }
+
+  .intoduction p {
+    font-size: 14px;
+  }
 }
