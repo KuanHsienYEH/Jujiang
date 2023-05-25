@@ -8,20 +8,12 @@ const section = [{
   date: 'Nov 2019 - Aug 2023',
   post: 'Software Engineer',
   desc: [
-    'Implemented frontend of Membership project using Vue3, Pinia, and Vite.',
-    'Implemented frontend of marketing automation platform using React.',
-    'Implemented Facebook, Google, Linkedin social login.',
-    'Migrated Angular and jQuery into organized Vue components and managed state with Vuex, also implemented features on Advantech websites.',
-    'Optimized Advantech Connect site page speed by 84%.',
-    'Implemented event tracking to analyze customer behavior on the Advantech website.',
-    'Built internal UI component library to reduce web development time.',
-    'Implemented A/B testing co-work with UX/UI team, mostly increased click-through rate by 72%.',
-    'Optimized SEO using pre-render.',
     'Led and implemented End-to-End testing on projects, reducing work hours from half day to 7 minutes.',
-    'Integrated test automation into Azure CICD pipeline.',
-    'Documented test guidelines to let newbies easily follow.',
-    'Mentored junior front-end developer on team in expanding front-end skillset.',
-    'Gave internal tech talk.'
+    'Integrated test automation into Azure CICD pipeline to ensure software quality.',
+    'Work with other cross-functional members, UIUX designer, backend engineer continuously developing websites and enhancing user experience.',
+    'Led and Design application architecture of projects, implemented features using Vue and React.',
+    'By leveraging tools, achieving significant improvements in user experience, page speed, and SEO.',
+    'Mentored 2 junior front-end developer on team in expanding front-end skillset.',
   ]
 }, {
   id: '2',
