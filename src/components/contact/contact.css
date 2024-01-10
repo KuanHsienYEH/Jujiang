@@ -63,13 +63,15 @@
     flex-wrap: wrap;
 }
 
-.contact-form div input {
+.contact-form div label {
     width: 48%;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-form textarea {
     border-radius: 4px;
-    padding: 2.2rem 3.2rem;
+    padding: 1.2rem 3.2rem;
     margin-bottom: 2rem;
     font-family: SF Pro Display, sans-serif;
     font-style: normal;
@@ -110,6 +112,15 @@
     transform: translate(-5px, -5px);
 }
 
+.error-message{
+    color: #cc0000;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    font-size: 16px;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
 /* .contact-form .submit:hover{
     background-color: #fff;
     color: #000;
@@ -138,9 +149,6 @@
 }
 
 @media screen and (max-width:480px) {
-
-
-
 
     .contact-form input {
         font-size: 16px;
