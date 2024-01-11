@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d1a21140.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.4125949c.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.4125949c.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.82d40d0c.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.82d40d0c.js.map",
-    "static/js/2.9c5db405.chunk.js": "/my-portfolio/static/js/2.9c5db405.chunk.js",
-    "static/js/2.9c5db405.chunk.js.map": "/my-portfolio/static/js/2.9c5db405.chunk.js.map",
-    "static/js/3.4fc81526.chunk.js": "/my-portfolio/static/js/3.4fc81526.chunk.js",
-    "static/js/3.4fc81526.chunk.js.map": "/my-portfolio/static/js/3.4fc81526.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.ef93970e.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.c3ea49bb.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.c3ea49bb.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.f8b6c50f.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.f8b6c50f.js.map",
+    "static/js/2.87dd633e.chunk.js": "/my-portfolio/static/js/2.87dd633e.chunk.js",
+    "static/js/2.87dd633e.chunk.js.map": "/my-portfolio/static/js/2.87dd633e.chunk.js.map",
+    "static/js/3.caca738e.chunk.js": "/my-portfolio/static/js/3.caca738e.chunk.js",
+    "static/js/3.caca738e.chunk.js.map": "/my-portfolio/static/js/3.caca738e.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.d1a21140.chunk.css.map": "/my-portfolio/static/css/main.d1a21140.chunk.css.map",
-    "static/js/2.9c5db405.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.9c5db405.chunk.js.LICENSE.txt",
+    "static/css/main.ef93970e.chunk.css.map": "/my-portfolio/static/css/main.ef93970e.chunk.css.map",
+    "static/js/2.87dd633e.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.87dd633e.chunk.js.LICENSE.txt",
     "static/media/hmk.2f8add5b.PNG": "/my-portfolio/static/media/hmk.2f8add5b.PNG",
     "static/media/qyd.9f2a5283.PNG": "/my-portfolio/static/media/qyd.9f2a5283.PNG",
     "static/media/travel-advisor.94c07a18.PNG": "/my-portfolio/static/media/travel-advisor.94c07a18.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.82d40d0c.js",
-    "static/js/2.9c5db405.chunk.js",
-    "static/css/main.d1a21140.chunk.css",
-    "static/js/main.4125949c.chunk.js"
+    "static/js/runtime-main.f8b6c50f.js",
+    "static/js/2.87dd633e.chunk.js",
+    "static/css/main.ef93970e.chunk.css",
+    "static/js/main.c3ea49bb.chunk.js"
   ]
 }
